@@ -1,0 +1,31 @@
+.page-one {
+	position: absolute;
+	background-color: red;
+	height: 100%;
+	width: 100%;
+	margin-top: 35px;
+}
+.page-two {
+	position: absolute;
+	background-color: yellow;
+	height: 100%;
+	width: 100%;
+	margin-top: 35px;
+}
+.page-three {
+	position: absolute;
+	background-color: green;
+	height: 100%;
+	width: 100%;
+	margin-top: 35px;
+}
+.page-four {
+	position: absolute;
+	background-color: cornflowerblue;
+	height: 100%;
+	width: 100%;
+	margin-top: 35px;
+}
+.no-shadow{
+	box-shadow: none !important;
+}

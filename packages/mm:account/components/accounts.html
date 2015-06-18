@@ -1,0 +1,14 @@
+<template name="accounts">
+	{{#each account}}
+		<a href="/account/{{_id}}">{{name}}</a>
+	{{/each}}
+</template>
+
+<template name="account">
+	<div>
+		{{getAccountsNumber}}
+	</div>
+	<div>
+		{{getCurrency}}
+	</div>
+</template>

@@ -1,0 +1,42 @@
+<head>
+	<title>moneyminded</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<template name="layout">
+	{{> sidebar}}
+	<div style="margin-top: 35px;">
+	{{#momentum plugin='iron-router' options=transition}}
+  	{{> yield}}
+	{{/momentum}}
+		<!-- {{#momentum plugin='right-to-left'}}
+		{{#if pageOne}}
+			<div>
+				Page One
+			</div>
+		{{/if}}
+		{{/momentum}}
+		{{#momentum plugin='right-to-left'}}
+		{{#if pageTwo}}
+			<div>
+				Page Two
+			</div>
+		{{/if}}
+		{{/momentum}}
+		{{#momentum plugin='right-to-left'}}
+		{{#if pageThree}}
+			<div>
+				Page Three
+			</div>
+		{{/if}}
+		{{/momentum}}
+		{{#momentum plugin='right-to-left'}}
+		{{#if pageFour}}
+			<div>
+				Page Four
+			</div>
+		{{/if}}
+		{{/momentum}} -->
+	</div>
+	<!-- {{> yield}} -->
+</template>
