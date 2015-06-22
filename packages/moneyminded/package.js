@@ -12,16 +12,4 @@ Package.on_use(function (api, where) {
 
   api.imply([
   ], ['client', 'server']);
-
-  // api.add_files([
-  //   // 'namespace.js',
-  //   'model.js'
-  // ], ['client', 'server']);
-
-  // api.export('MM');
-
-  // api.add_files([
-  //   'fixtures.js'
-  // ], 'server');
-
 });

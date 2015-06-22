@@ -13,8 +13,8 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
 
-  var c = "client",
-      s = "server",
+  var c = 'client',
+      s = 'server',
       cs = [c, s];
 
   api.use([

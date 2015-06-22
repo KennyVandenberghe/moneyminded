@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  
+
   var c = "client",
       s = "server",
       cs = [c, s];
@@ -22,7 +22,7 @@ Package.onUse(function(api) {
     'mm:account',
     'mm:menu',
     'mm:income',
-    'mm:expense'
+    'mm:expense',
   ], cs);
 
   api.imply([
